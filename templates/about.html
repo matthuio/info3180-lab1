@@ -3,9 +3,11 @@
 <head>
  <meta charset="UTF-8">
  <title>My Website - About</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
  <h1>My name is Matthew Grant</h1>
  <p>I am 19 years old, I like talking to my friends, long walks on the beach, video games and web development.</p>
+ <img src="{{ url_for('static', filename='download.jfif') }}" alt="cool cat">
 </body>
 </html>
